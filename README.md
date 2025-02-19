@@ -3,13 +3,14 @@ This report analyzes changeovers on the production line, comparing actual change
 Data are ficional, blanks in reports are caused by lack of data.
 
 🔹 Key Report Sections:
-1️⃣ Filter Section (Top of the Report)
+-1️⃣ Filter Section (Top of the Report)
 The report allows filtering data based on:
 
 Production Shift (A, B, C) – View changeovers for specific shifts.
 Product – Select specific products that were changed over.
 Date Range – Adjust the analyzed period using a calendar filter.
-2️⃣ Key Metrics
+
+-2️⃣ Key Metrics
 Number of Changeovers Displayed: 4,078 – Total changeovers included in the analysis.
 Target Gap: -18.3K minutes – The difference between actual and target changeover times, showing a significant deviation from the expected values.
 3️⃣ Visualizations and Analysis
