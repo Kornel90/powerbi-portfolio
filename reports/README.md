@@ -63,16 +63,20 @@ This page provides a detailed table of changeovers for in-depth analysis.
 🔹 Key Elements:
 	
 Filters & Thresholds (Top Section)
-		○ Similar to the main page, users can filter data based on batch size and duration thresholds.
-		○ Targets can be adjusted (e.g., 0.8 min, 3 min, 4 min, 9 min, 12 min).
+		
+  🔹 Similar to the main page, users can filter data based on batch size and duration thresholds.
+  
+  🔹  Targets can be adjusted (e.g., 0.8 min, 3 min, 4 min, 9 min, 12 min).
 
 Detailed Changeover Table
-		○ Lists individual changeover events, including:
-			§ Category (Product Changeover From → To)
-			§ Start & End Time
-			§ Duration (Minutes)
-			§ Description (Target Category: 3 min, 9 min, etc.)
-      § Batch Size
+
+🔹 Lists individual changeover events, including:
+
+	- Category (Product Changeover From → To)
+	- Start & End Time
+	- Duration (Minutes)
+	- Description (Target Category: 3 min, 9 min, etc.)
+	- Batch Size
 
 📌 Summary
 This report monitors the efficiency of changeovers on the production line, helping identify areas for improvement. It highlights where actual changeover times exceed targets, enabling data-driven decisions for process optimization.
