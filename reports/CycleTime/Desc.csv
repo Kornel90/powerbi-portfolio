@@ -1,0 +1,16 @@
+﻿Id;Name;Description;LineName;FA;ParallelStation
+8;M1;Loading;ProdLine;1;
+10;M2;Loading 2;ProdLine;1;
+11;M3;Operation 1;ProdLine;1;
+12;M4;Protection;ProdLine;1;
+13;M5;Operation 2;ProdLine;1;M6
+14;M6;Operation 3;ProdLine;1;M5
+15;M7;Operation 4;ProdLine;1;M8
+16;M8;Operation 5;ProdLine;1;M7
+17;M9;Checking;ProdLine;1;
+18;M10;Operation 6;ProdLine;1;
+19;M11;Protection 2;ProdLine;1;
+20;M12;Checking 2;ProdLine;1;
+21;M13;Labeling ;ProdLine;1;
+22;M14;Scanning ;ProdLine;1;
+26;M15;Scaning 2;ProdLine;1;
