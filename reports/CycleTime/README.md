@@ -1,82 +1,57 @@
-# Context
-This report presents data on changeovers occurring on a production line. The data used in the report is fictional and intended for analytical purposes. The main objective is to compare the actual changeover durations with target values to identify inefficiencies and areas for improvement.
+# Cycle Time Analysis – Power BI Report
 
-# Approach
-The report is designed to analyze changeover times on the production line and compare them with predefined target durations. By evaluating historical data over time, it helps to identify product groups that fail to meet target expectations.
+## 📌 Context
+This report was created to **monitor the compliance of the planned cycle time (Cycle Time - CT) with actual results** in the production process. It enables data analysis across different dimensions, such as **production stations, product groups, and time**, helping to identify deviations and potential areas for optimization.
 
-This analysis enables:
+### 🎯 Main Objectives of the Report:
+- **Tracking time trends** – analyzing how cycle time changes at various stations.
+- **Identifying bottlenecks** – detecting stations where cycle time exceeds the norm.
+- **Assessing process stability** – analyzing standard deviations for different operations.
+- **Comparing performance across suppliers and products** – evaluating the impact of different variables on process efficiency.
+- **Analyzing individual products and stations** – allowing for deep dives into details, such as how a specific product performs at different stations or how a station handles various products.
 
-✔️ Detection of inefficiencies – pinpointing changeovers that exceed the target time.
+---
 
-✔️ Waste reduction assessment – estimating the time lost due to prolonged changeovers.
+## ⚙️ Report Approach
+The report utilizes **data from the production system** and presents it in an accessible visual format.
 
-✔️ Process improvement – identifying specific product groups that require optimization.
+### 🏗️ Key Approach Elements:
+- **Dynamic filtering** – users can analyze data by product groups, stations, or cycle time range.
+- **Various visualization types** – including line charts, histograms, heat maps, and bar charts.
+- **Color-coded deviation indicators** – green, orange, and red markers quickly highlight issues.
+- **Trend analysis** – cycle time is examined historically to detect long-term changes.
+- **Flexible analysis at different detail levels** – users can select a single product or station for in-depth insights.
 
-# Changeover Analysis Report
-This report analyzes changeovers on the production line, comparing actual changeover times against target values.
+---
 
-Limitations: Blanks in reports are caused by lack of data.
+## 📊 Report Structure
 
-![image](https://github.com/user-attachments/assets/3ee88295-d45b-445e-81ba-abc57e310f26)
+### 1️⃣ Line Chart (CT Median Trend)
+- Displays the median cycle time for different stations over time.
+- Helps understand how process efficiency evolves.
+- **When a single product is selected**, users can compare its cycle time trends across stations.
+- **When a single station is selected**, users can check if its cycle times are stable or fluctuating over time.
 
-![image](https://github.com/user-attachments/assets/bc888418-1f9c-4193-99e6-2e871cd46851)
+### 2️⃣ Heat Map
+- Color-coded to indicate which operations meet cycle time targets and which exceed them.
+- **Selecting a single product helps identify stations where its cycle time deviates from the norm**, pinpointing potential production issues.
 
- # Main Page
-🔹 Key Report Sections:
+### 3️⃣ Cycle Time Histogram
+- Displays the distribution of cycle times for selected stations or suppliers.
+- **If a single station is selected**, the histogram reveals how variable cycle times are for that specific operation.
 
-1️⃣ Filter Section (Top of the Report)
-The report allows filtering data based on:
+### 4️⃣ Bar Chart (CT Median & StDev)
+- Shows the median and standard deviation of cycle time for each station.
+- Helps identify stable vs. highly variable processes.
+- **Selecting a single station allows for detailed analysis of its standard deviation and whether it meets the expected cycle time** across different products.
 
-Production Shift (A, B, C) – View changeovers for specific shifts.
-Product – Select specific products that were changed over.
-Date Range – Adjust the analyzed period using a calendar filter.
+### 5️⃣ Toggle Buttons (Green Arrows "Show by Group" and "Show by Stations")
+- Allow switching between **product group view and station view**.
+- **Product group view** enables comparison of cycle time trends across different product categories.
+- **Station view** evaluates how different operations perform within the production process.
 
-2️⃣ Key Metrics
-Number of Changeovers Displayed – Total changeovers included in the analysis.
-Target Gap in minutes – The difference between actual and target changeover times, showing a significant deviation from the expected values.
+---
 
-3️⃣ Visualizations and Analysis
+## 📌 Summary
+This report provides **a comprehensive insight into the production process**, enabling data-driven decisions to **optimize cycle times on production lines**. The ability to analyze both at the product group level and at individual stations makes it a versatile tool for managing production efficiency.
 
-📊 Average Changeover Time & Count (Weekly)
-Displays the number of changeovers across different time ranges (e.g., 0.8 min, 3 min, 4 min).
-Highlights weeks with the highest deviations from the target.
-
-📊 Histogram of Changeover Times
-Shows the distribution of changeover times.
-Most changeovers are under 10 minutes, but longer changeovers also occur.
-
-📊 Total Changeover Time: Actual vs. Target (Bar Chart)
-Compares actual changeover times vs. target times for individual days.
-Many days show significant target exceedances.
-
-4️⃣ Quick Date Filters (Bottom of the Report)
-The report includes additional filters for fast navigation between different time periods:
-TD (Today) – Displays data for the current day.
-CW (Current Week) – Shows data for the current week.
-LW (Last Week) – Displays last week's data.
-2W, CM, LM, 3M – Allows analyzing data for 2 weeks, current month, last month, or the last 3 months.
-
-# Detailed Page
-
-This page provides a detailed table of changeovers for in-depth analysis.
-
-🔹 Key Elements:
-	
-Filters & Thresholds (Top Section)
-		
-  🔹 Similar to the main page, users can filter data based on batch size and duration thresholds.
-  
-  🔹  Targets can be adjusted (e.g., 0.8 min, 3 min, 4 min, 9 min, 12 min).
-
-Detailed Changeover Table
-
-🔹 Lists individual changeover events, including:
-
-	- Category (Product Changeover From → To)
-	- Start & End Time
-	- Duration (Minutes)
-	- Description (Target Category: 3 min, 9 min, etc.)
-	- Batch Size
-
-📌 Summary
-This report monitors the efficiency of changeovers on the production line, helping identify areas for improvement. It highlights where actual changeover times exceed targets, enabling data-driven decisions for process optimization.
