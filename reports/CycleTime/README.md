@@ -11,6 +11,11 @@ This report was created to **monitor the compliance of the planned cycle time (C
 - **Analyzing individual products and stations** – allowing for deep dives into details, such as how a specific product performs at different stations or how a station handles various products.
 
 ---
+![image](https://github.com/user-attachments/assets/870c944f-37f8-4967-ae00-c36f77884842)
+![image](https://github.com/user-attachments/assets/38426378-a669-446b-aedf-894229b22577)
+![image](https://github.com/user-attachments/assets/3645354a-5798-45c9-81f4-660474f4cb98)
+
+
 
 ## ⚙️ Report Approach
 The report utilizes **data from the production system** and presents it in an accessible visual format.
