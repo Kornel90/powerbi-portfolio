@@ -25,6 +25,11 @@ The report utilizes **data extracted from the production system** and presents i
 This flexible setup allows users to explore both high-level trends and granular performance data by product, customer, and process station.
 
 ---
+![image](https://github.com/user-attachments/assets/d7c5b138-67aa-465c-ba22-16d382c626ca)
+![image](https://github.com/user-attachments/assets/1b8b7155-3065-43a7-b08e-6b3d5b757ee6)
+![image](https://github.com/user-attachments/assets/72ac9762-74ba-4dc4-8878-d4dcdbfea61a)
+
+---
 
 ## 📊 Report Structure
 
