@@ -16,7 +16,8 @@ This Power BI report was developed to **monitor the adherence of actual cycle ti
 The report utilizes **data extracted from the production system** and presents it using intuitive, interactive visualizations for detailed cycle time analysis.
 
 ### 🏠 Key Approach Elements:
-- **Interactive filter pane** – shift, date, product group/item, station, CT threshold
+- **Interactive filter pane** – shift, date, product group/item, station
+- Cycle Time threshold filter – a key filter that determines which records are included in visuals; strongly influences histogram and variability analysis
 - **Responsive visuals** – all charts update based on selected filters
 - **Color-coded heat map** – highlights CT compliance per station and customer
 - **Line charts** – visualize cycle time trends by week and station
@@ -26,8 +27,8 @@ This flexible setup allows users to explore both high-level trends and granular 
 
 ---
 ![image](https://github.com/user-attachments/assets/d7c5b138-67aa-465c-ba22-16d382c626ca)
-![image](https://github.com/user-attachments/assets/1b8b7155-3065-43a7-b08e-6b3d5b757ee6)
-![image](https://github.com/user-attachments/assets/72ac9762-74ba-4dc4-8878-d4dcdbfea61a)
+![image](https://github.com/user-attachments/assets/6957e8f1-4933-421d-bd38-ecce445a7495)
+![image](https://github.com/user-attachments/assets/849b76bb-64e3-47bb-9bfb-200ed674dc28)
 
 ---
 
