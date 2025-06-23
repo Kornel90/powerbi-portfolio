@@ -85,5 +85,5 @@ The report uses a parameter called `Data_Source` that points to the local folder
 
 **Example:**
 ```
-C:\Users\YourName\Documents\GitHub\powerbi-portfolio\plan-adherence-report\
+C:\Users\YourName\Documents\GitHub\powerbi-portfolio\Files\plan-adherence-report\
 ```
