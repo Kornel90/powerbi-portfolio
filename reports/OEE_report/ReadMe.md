@@ -12,7 +12,17 @@ The summary view presents weekly metrics and allows users to drill into detailed
 - **Provide actionable insights** for improvement opportunities
 
 ---
+### Main Page
+![image](https://github.com/user-attachments/assets/97e6a0e3-7e61-4e62-8601-92dd1c7d28a6)
+### Quality
+![image](https://github.com/user-attachments/assets/355b21bd-3683-44c2-9eb3-1c8793f9e99d)
+### Availability
+![image](https://github.com/user-attachments/assets/47dba296-ef46-4ab0-84d0-d0cb6487425d)
+### Performance
+![image](https://github.com/user-attachments/assets/7048e7dd-ca6f-4667-99d9-c17bda08bb7c)
 
+
+---
 ## ⚙️ Report Approach
 
 The report integrates high-level summaries with drill-down capability into specific OEE components: **Availability**, **Performance**, and **Quality**. Users begin with a summary dashboard that highlights weekly results per line and globally. From there, interactive buttons redirect to detailed pages focused on each metric.
