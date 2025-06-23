@@ -6,24 +6,6 @@ All datasets are fictional and intended solely for skill demonstration purposes.
 
 ---
 
-## 📁 Reports Overview
-
-Each folder inside the `reports/` directory contains:
-- A Power BI report file (`.pbix`)
-- Sample `.csv` data sources
-- A project-specific `README.md` with report description
-
----
-
-## 🧱 How to Use
-
-1. **Clone this repository** locally
-2. Open any `.pbix` report in Power BI Desktop
-3. Set the `Data_Source` parameter (if present) to your local path with CSV files
-4. Refresh the report to load the sample data
-
----
-
 ## 🧪 Included Reports
 
 | Report | Summary |
@@ -32,6 +14,18 @@ Each folder inside the `reports/` directory contains:
 | **Cycle Time** | Analyzes cycle time performance and process variation over time |
 | **OEE** | Tracks availability, performance, and quality metrics for assembly lines |
 | **Production Plan** | Evaluates adherence to production plan and sources of deviation |
+
+---
+## 📷 Report Preview
+![Preview](https://github.com/user-attachments/assets/50ac8a5f-e046-4b8d-b1f4-59cd6ef5da3b)
+
+---
+## 🧱 How to Use
+
+1. **Clone this repository** locally
+2. Open any `.pbix` report in Power BI Desktop
+3. Set the `Data_Source` parameter (if present) to your local path with CSV files
+4. Refresh the report to load the sample data
 
 ---
 
