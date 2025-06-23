@@ -1,0 +1,21 @@
+MachineType,NOKCategoryID
+Welding Robot,1
+Welding Robot,2
+Welding Robot,3
+Punching Machine,4
+Laser Cutting Machine,5
+CNC,6
+Laser Cutting Machine,6
+CNC Bender,7
+Hydraulic Bender,7
+Riveting Unit,8
+Assembly Station,9
+Vision System,10
+Feeder,11
+Conveyor,11
+Assembly Station,12
+Powder Coating Station,13
+Heat Furnace,14
+CNC,15
+Laser Cutting Machine,15
+CNC Bender,15

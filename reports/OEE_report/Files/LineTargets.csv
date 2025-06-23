@@ -1,0 +1,4 @@
+LineID,TargetAvailability (%),TargetPerformance (%),TargetQuality (%),TargetOEE (%)
+L1,91,93,96,81.24
+L2,92,94,98,84.75
+L3,90,92,97,80.32

@@ -1,1 +1,4 @@
-
+LineID,LineName,Supervisor,Location,Description
+L1,Brake Pedal Assembly,John Simmons,Plant A – Line 1,High-speed stamping and welding line
+L2,Engine Mount Bracket,Elisa Tran,Plant A – Line 2,Precision bending and welding
+L3,Chassis Support Beam,Carlos Ortega,Plant B – Line 3,Heavy structural beam fabrication
