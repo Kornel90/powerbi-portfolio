@@ -26,8 +26,11 @@ The report utilizes **data extracted from the production system** and presents i
 This flexible setup allows users to explore both high-level trends and granular performance data by product, customer, and process station.
 
 ---
+### Main Page
 ![image](https://github.com/user-attachments/assets/d7c5b138-67aa-465c-ba22-16d382c626ca)
+### Main Page with Filter Pane
 ![image](https://github.com/user-attachments/assets/6957e8f1-4933-421d-bd38-ecce445a7495)
+### Main Page - data with filters
 ![image](https://github.com/user-attachments/assets/849b76bb-64e3-47bb-9bfb-200ed674dc28)
 
 ---
@@ -65,3 +68,19 @@ This flexible setup allows users to explore both high-level trends and granular 
 
 ## 📌 Summary
 This report provides **a comprehensive insight into the production process**, enabling data-driven decisions to **optimize cycle times on production lines**. The ability to analyze both at the product group level and at individual stations makes it a versatile tool for managing production efficiency.
+
+---
+
+## 📂 Data Source Setup
+
+Set `Data_Source` to your local folder path (end with `\`).
+
+The report uses a parameter called `Data_Source` that points to the local folder containing the required `.csv` files. After downloading the repository, make sure the path points to the cloned Git folder where the source files are located.
+
+- Path should end with a backslash (`\`)
+- Must include all `.csv` data files from the report directory
+
+**Example:**
+```
+C:\Users\YourName\Documents\GitHub\powerbi-portfolio\Files\CycleTime\
+```
