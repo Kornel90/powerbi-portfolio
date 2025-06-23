@@ -1,0 +1,16 @@
+NOKCategoryID,NOKCategoryName,AppliesToMachineType,Description
+1,Poor Weld Penetration,Welding Robot,Weld does not fuse materials fully
+2,Weld Spatter,Welding Robot,Excess material around weld seam
+3,Missed Weld,Welding Robot,Weld was skipped or missed
+4,Hole Misalignment,Punching Machine,Holes not aligned with spec
+5,Incomplete Cut,Laser Cutting Machine,Part not cut through entirely
+6,Burr Formation,CNC,Sharp edge or metal burr present
+7,Part Not Bent to Spec,CNC Bender,Final part dimension outside tolerance
+8,Loose Rivet,Riveting Unit,Rivet not fastened properly
+9,Missing Component,Assembly Station,Part not assembled completely
+10,Electrical Test Fail,Vision System,PCB/assembly fails functional testing
+11,Surface Scratch,Feeder,Cosmetic defect from handling
+12,Label Misplaced,Assembly Station,Label not applied or incorrectly placed
+13,Incorrect Powder Coating,Powder Coating Station,Color mismatch or uneven coverage
+14,Crack After Heat Treatment,Heat Furnace,Material cracked during stress relieving
+15,Out-of-Tolerance Dimension,CNC,Any dimensional check failed

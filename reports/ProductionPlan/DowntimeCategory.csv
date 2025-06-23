@@ -1,0 +1,16 @@
+DowntimeCategoryID,CategoryName,Group,Description,Type
+1,Mechanical Failure,Unplanned Downtime,"Unexpected equipment malfunction (e.g., press jam, motor failure)",Technical
+2,Electrical Failure,Unplanned Downtime,"Wiring, sensors, or control system errors",Technical
+3,Pneumatic/Hydraulic Failure,Unplanned Downtime,Air or hydraulic pressure issues,Technical
+4,Material Shortage,Unplanned Downtime,No raw materials available at feeder,Logistical
+5,Operator Unavailable,Unplanned Downtime,Operator absent or delayed,Organizational
+6,Safety Interlock Triggered,Unplanned Downtime,Safety door opened or interlock fault,Safety
+7,Quality Hold,Unplanned Downtime,Line stopped due to defect detection,Quality
+8,Changeover / Setup,Planned Downtime,"Switching product version, adjusting tooling",Planned
+9,Preventive Maintenance,Planned Downtime,Scheduled maintenance activity,Maintenance
+10,Cleaning / Sanitation,Planned Downtime,Regular cleaning of the line or machine,Maintenance
+11,Break / Lunch,Planned Downtime,Operator scheduled break or meal time,Organizational
+12,Inspection / Audit,Planned Downtime,Scheduled inspection or audit by quality or management,Quality
+13,Reservation / Idle Scheduled,Planned Downtime,Machine scheduled as standby or not assigned,Organizational
+14,Power Outage,Unplanned Downtime,Utility power loss,External
+15,Network/PLC Communication Fail,Unplanned Downtime,Network or PLC communication lost,Technical

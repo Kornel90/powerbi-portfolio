@@ -1,0 +1,61 @@
+ProductID,ProductName,Version,Description,LineID,TargetIdealCycleTime (s),TargetOEE (%),TargetAvailability (%),TargetPerformance (%),TargetQuality (%)
+BPA-100,Brake Pedal Assembly,BPA-100,"For truck, reinforced steel, left-hand drive",L1,68,85,91,93,96
+BPA-101,Brake Pedal Assembly,BPA-101,"For compact car, aluminum, left-hand drive",L1,46,88,92,94,98
+BPA-102,Brake Pedal Assembly,BPA-102,"For sedan, standard steel, right-hand drive",L1,71,86,90,91,97
+BPA-103,Brake Pedal Assembly,BPA-103,"For SUV, steel, right-hand drive",L1,74,87,90,92,98
+BPA-104,Brake Pedal Assembly,BPA-104,"For sedan, standard steel, right-hand drive",L1,57,84,90,93,96
+BPA-105,Brake Pedal Assembly,BPA-105,"For truck, reinforced steel, left-hand drive",L1,47,85,92,93,98
+BPA-106,Brake Pedal Assembly,BPA-106,"For compact car, aluminum, left-hand drive",L1,64,88,92,94,97
+BPA-107,Brake Pedal Assembly,BPA-107,"For compact car, steel, left-hand drive",L1,51,88,89,91,98
+BPA-108,Brake Pedal Assembly,BPA-108,"For SUV, steel, right-hand drive",L1,60,88,91,93,98
+BPA-109,Brake Pedal Assembly,BPA-109,"For truck, reinforced steel, left-hand drive",L1,68,88,91,91,98
+BPA-110,Brake Pedal Assembly,BPA-110,"For compact car, steel, left-hand drive",L1,47,85,90,92,98
+BPA-111,Brake Pedal Assembly,BPA-111,"For SUV, steel, right-hand drive",L1,49,88,91,92,96
+BPA-112,Brake Pedal Assembly,BPA-112,"For compact car, steel, left-hand drive",L1,54,88,89,91,98
+BPA-113,Brake Pedal Assembly,BPA-113,"For compact car, steel, left-hand drive",L1,67,86,92,91,98
+BPA-114,Brake Pedal Assembly,BPA-114,"For compact car, aluminum, left-hand drive",L1,67,84,91,92,98
+BPA-115,Brake Pedal Assembly,BPA-115,"For sedan, standard steel, right-hand drive",L1,43,86,92,91,96
+BPA-116,Brake Pedal Assembly,BPA-116,"For SUV, steel, right-hand drive",L1,64,86,92,91,96
+BPA-117,Brake Pedal Assembly,BPA-117,"For compact car, aluminum, left-hand drive",L1,44,84,92,91,98
+BPA-118,Brake Pedal Assembly,BPA-118,"For compact car, aluminum, left-hand drive",L1,71,84,92,92,96
+BPA-119,Brake Pedal Assembly,BPA-119,"For SUV, steel, right-hand drive",L1,72,86,91,93,97
+EMB-200,Engine Mount Bracket,EMB-200,"For hybrid engine, SUV, top-mount",L2,59,86,91,94,96
+EMB-201,Engine Mount Bracket,EMB-201,"For electric engine, crossover, vibration-resistant",L2,43,88,92,91,96
+EMB-202,Engine Mount Bracket,EMB-202,"For turbo engine, truck, reinforced",L2,51,85,93,94,97
+EMB-203,Engine Mount Bracket,EMB-203,"For turbo engine, truck, reinforced",L2,71,86,89,93,98
+EMB-204,Engine Mount Bracket,EMB-204,"For diesel engine, mid-size sedan, side-mount",L2,74,85,93,92,96
+EMB-205,Engine Mount Bracket,EMB-205,"For electric engine, crossover, vibration-resistant",L2,51,88,92,91,97
+EMB-206,Engine Mount Bracket,EMB-206,"For hybrid engine, SUV, top-mount",L2,40,84,89,94,98
+EMB-207,Engine Mount Bracket,EMB-207,"For diesel engine, mid-size sedan, side-mount",L2,51,86,92,92,97
+EMB-208,Engine Mount Bracket,EMB-208,"For diesel engine, mid-size sedan, side-mount",L2,63,84,93,92,97
+EMB-209,Engine Mount Bracket,EMB-209,"For electric engine, crossover, vibration-resistant",L2,53,84,92,94,98
+EMB-210,Engine Mount Bracket,EMB-210,"For gas engine, compact, front-mount",L2,74,84,92,94,97
+EMB-211,Engine Mount Bracket,EMB-211,"For hybrid engine, SUV, top-mount",L2,45,88,90,94,97
+EMB-212,Engine Mount Bracket,EMB-212,"For turbo engine, truck, reinforced",L2,63,88,92,94,96
+EMB-213,Engine Mount Bracket,EMB-213,"For hybrid engine, SUV, top-mount",L2,58,87,93,92,97
+EMB-214,Engine Mount Bracket,EMB-214,"For electric engine, crossover, vibration-resistant",L2,49,86,92,92,97
+EMB-215,Engine Mount Bracket,EMB-215,"For hybrid engine, SUV, top-mount",L2,71,88,92,94,97
+EMB-216,Engine Mount Bracket,EMB-216,"For turbo engine, truck, reinforced",L2,62,88,90,93,97
+EMB-217,Engine Mount Bracket,EMB-217,"For turbo engine, truck, reinforced",L2,67,87,93,94,97
+EMB-218,Engine Mount Bracket,EMB-218,"For gas engine, compact, front-mount",L2,69,88,91,91,98
+EMB-219,Engine Mount Bracket,EMB-219,"For diesel engine, mid-size sedan, side-mount",L2,74,87,89,92,96
+CSB-300,Chassis Support Beam,CSB-300,"For short frame, 4mm steel, crossover vehicle",L3,50,88,92,94,96
+CSB-301,Chassis Support Beam,CSB-301,"For long frame, 5mm steel, commercial van",L3,62,84,90,92,97
+CSB-302,Chassis Support Beam,CSB-302,"For extra-long frame, 6mm steel, cargo hauler",L3,42,84,89,94,96
+CSB-303,Chassis Support Beam,CSB-303,"For custom frame, 5mm aluminum, sport utility",L3,52,88,90,92,96
+CSB-304,Chassis Support Beam,CSB-304,"For custom frame, 5mm aluminum, sport utility",L3,54,85,93,92,98
+CSB-305,Chassis Support Beam,CSB-305,"For extra-long frame, 6mm steel, cargo hauler",L3,68,85,93,91,97
+CSB-306,Chassis Support Beam,CSB-306,"For short frame, 4mm steel, crossover vehicle",L3,52,86,91,94,98
+CSB-307,Chassis Support Beam,CSB-307,"For custom frame, 5mm aluminum, sport utility",L3,60,87,89,93,97
+CSB-308,Chassis Support Beam,CSB-308,"For custom frame, 5mm aluminum, sport utility",L3,43,85,91,94,97
+CSB-309,Chassis Support Beam,CSB-309,"For extra-long frame, 6mm steel, cargo hauler",L3,50,88,92,94,98
+CSB-310,Chassis Support Beam,CSB-310,"For extra-long frame, 6mm steel, cargo hauler",L3,49,87,90,94,98
+CSB-311,Chassis Support Beam,CSB-311,"For medium frame, 6mm high-strength alloy, pickup truck",L3,71,87,90,92,96
+CSB-312,Chassis Support Beam,CSB-312,"For long frame, 5mm steel, commercial van",L3,66,86,92,91,96
+CSB-313,Chassis Support Beam,CSB-313,"For short frame, 4mm steel, crossover vehicle",L3,40,88,91,91,96
+CSB-314,Chassis Support Beam,CSB-314,"For medium frame, 6mm high-strength alloy, pickup truck",L3,59,84,90,94,97
+CSB-315,Chassis Support Beam,CSB-315,"For extra-long frame, 6mm steel, cargo hauler",L3,40,88,89,91,98
+CSB-316,Chassis Support Beam,CSB-316,"For custom frame, 5mm aluminum, sport utility",L3,63,85,91,92,96
+CSB-317,Chassis Support Beam,CSB-317,"For custom frame, 5mm aluminum, sport utility",L3,70,87,90,91,97
+CSB-318,Chassis Support Beam,CSB-318,"For custom frame, 5mm aluminum, sport utility",L3,43,88,93,91,96
+CSB-319,Chassis Support Beam,CSB-319,"For extra-long frame, 6mm steel, cargo hauler",L3,43,86,93,93,96

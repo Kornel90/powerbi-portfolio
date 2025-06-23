@@ -1,0 +1,19 @@
+MachineID,MachineName,LineID,MachineType,Manufacturer,CommissionedDate,Description
+M101,Sheet Feeder,L1,Feeder,AMT Systems,2019-04-01,Automatic metal sheet loader
+M102,Stamping Press,L1,Press,Komatsu,2018-11-15,200-ton stamping machine
+M103,Robotic Welder,L1,Welding Robot,KUKA,2020-06-20,6-axis MIG welding robot
+M104,Pedal Arm Bender,L1,CNC Bender,Trumpf,2017-08-05,Bends arm to model-specific shape
+M105,Rivet Station,L1,Riveting Unit,Atlas Copco,2019-12-10,Rivet insertion and fastening
+M106,Vision Inspection Station,L1,Vision System,Keyence,2021-03-10,Automatic quality inspection
+M107,Packing Conveyor,L1,Conveyor,FlexLink,2016-09-01,Transfers finished pedals to packaging
+M201,CNC Cutting Station,L2,CNC,Haas,2018-02-15,Cuts mount blanks from steel sheets
+M202,Hydraulic Bender,L2,Hydraulic Bender,Bystronic,2019-01-25,Bends cut blanks into shape
+M203,Hole Punch Station,L2,Punching Machine,Trumpf,2020-10-01,Creates bolt holes
+M204,Robotic Welder,L2,Welding Robot,Fanuc,2021-05-30,Robotic TIG welding
+M205,Heat Treatment Furnace,L2,Heat Furnace,Ipsen,2017-07-20,Stress-relieves welded mounts
+M206,Coating Booth,L2,Powder Coating Station,Nordson,2018-03-18,Anti-corrosion powder coating
+M301,Steel Bar Feeder,L3,Feeder,AMT Systems,2019-09-01,Feeds steel bars into line
+M302,Laser Cutter,L3,Laser Cutting Machine,Mazak,2018-06-11,High-precision shape cutting
+M303,Welding Gantry,L3,Gantry Welder,Lincoln Electric,2017-12-22,Multi-point structural welding
+M304,Integrity Test Station,L3,Load Testing Unit,Instron,2020-10-12,Tests structural integrity under load
+M305,Final Assembly Station,L3,Assembly Station,Bosch,2021-02-14,"Attaches final brackets, labels, and seals"
