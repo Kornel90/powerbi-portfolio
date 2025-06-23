@@ -23,6 +23,9 @@ The report integrates planned and actual production data and provides real-time,
 - **Weekly trend tracking** of line accuracy and plan realization
 
 ---
+![image](https://github.com/user-attachments/assets/b17579d1-de19-4ac9-9439-3a8586a3235e)
+![image](https://github.com/user-attachments/assets/508385e1-0696-4c3e-9a79-4a9d809e70f0)
+
 
 ## 📊 Report Structure
 
