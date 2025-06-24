@@ -41,7 +41,4 @@ The reports were developed using the following tools and technologies:
 ---
 
 ## 📌 Purpose
-
-This portfolio presents sample analytics projects created to reflect real-life scenarios. Each report simulates an end-to-end workflow, showcasing Power BI capabilities including data modeling, KPIs, visualizations, and user interaction design.
-
-While the data is synthetic, the reports are built to illustrate realistic use cases. They are designed to support recruitment discussions and demonstrate hands-on reporting expertise.
+This portfolio was created to showcase my Power BI skills based on sample data. Each report is built around realistic scenarios to demonstrate how I approach data modeling, creating measures, building visuals, and designing interactive reports.
