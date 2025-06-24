@@ -24,8 +24,7 @@ All datasets are fictional and intended solely for skill demonstration purposes.
 
 1. **Clone this repository** locally
 2. Open any `.pbix` report in Power BI Desktop
-3. Set the `Data_Source` parameter (if present) to your local path with CSV files
-4. Refresh the report to load the sample data
+3. Set the `Data_Source` parameter to your local path with CSV files
 
 ---
 
