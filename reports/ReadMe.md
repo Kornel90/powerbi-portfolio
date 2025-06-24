@@ -17,7 +17,7 @@ All datasets are fictional and intended solely for skill demonstration purposes.
 
 ---
 ## 📷 Report Preview
-![Preview](https://github.com/user-attachments/assets/50ac8a5f-e046-4b8d-b1f4-59cd6ef5da3b)
+![PBI_preview](https://github.com/user-attachments/assets/f504857c-f676-455e-91ad-a87e137025ca)
 
 ---
 ## 🧱 How to Use
