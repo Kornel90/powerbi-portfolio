@@ -10,7 +10,9 @@ The report is designed to analyze changeover times on the production line and co
 
 ### 🎯 This analysis enables:
 ✔️ **Detection of inefficiencies** – pinpointing changeovers that exceed the target time.
+
 ✔️ **Waste reduction assessment** – estimating the time lost due to prolonged changeovers.
+
 ✔️ **Process improvement** – identifying specific product groups that require optimization.
 
 ---
@@ -19,10 +21,10 @@ The report is designed to analyze changeover times on the production line and co
 This report analyzes changeovers on the production line, comparing actual changeover times against target values.
 
 **Limitations:** Blanks in reports are caused by lack of data.
-
-![image](https://github.com/user-attachments/assets/3ee88295-d45b-445e-81ba-abc57e310f26)
-
-![image](https://github.com/user-attachments/assets/bc888418-1f9c-4193-99e6-2e871cd46851)
+### Main Page
+![image](https://github.com/user-attachments/assets/9588a95a-028f-4410-a1c4-f5b0115c4e22)
+### Detailed Page
+![image](https://github.com/user-attachments/assets/7feee3e3-0c86-46a4-a820-3984e6b81031)
 
 ---
 
@@ -54,13 +56,6 @@ The report allows filtering data based on:
 - Compares actual changeover times vs. target times for individual days.
 - Many days show significant target exceedances.
 
-#### 4️⃣ Quick Date Filters (Bottom of the Report)
-The report includes additional filters for fast navigation between different time periods:
-
-- **TD (Today)** – Displays data for the current day.
-- **CW (Current Week)** – Shows data for the current week.
-- **LW (Last Week)** – Displays last week's data.
-- **2W, CM, LM, 3M** – Allows analyzing data for 2 weeks, current month, last month, or the last 3 months.
 
 ---
 
