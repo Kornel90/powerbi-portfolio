@@ -1,5 +1,5 @@
-# 2.  Example of Measures Defined in the Tabular Model -DAX
-
+---
+# 3.  Example of Measures Defined in the Tabular Model -DAX
 
 ---
 
@@ -11,9 +11,35 @@ Defining measures at the SSAS level allows centralizing business logic and ensur
 -  **Consistent logic**: No need to duplicate DAX logic in every Power BI file
 -  **Maintainability**: Business logic is version-controlled and easier to manage
 -  **Performance**: Keeps Power BI datasets lightweight and fast
+---
+## Calendar Table in SSDT
+
+The `Calendar` table is created directly in SSDT using a DAX `CALENDAR` function. It dynamically generates dates based on the minimum and maximum values of `ShiftLog[ShiftDate]`, ensuring that the calendar always matches the actual data range used in the model.
+
+Additional columns like `Year`, `Month`, `Week`, `Quarter`, and `Weekday` are added using `ADDCOLUMNS` to support common time-based analysis. Creating the calendar in the model ensures consistency across reports and removes the need for an external date table.
 
 
-![SSDT_Measures](https://github.com/user-attachments/assets/4822ce35-f0a3-4135-888e-7d76519b0510)
+### Calendar Table DAX Expression
+
+```dax
+ADDCOLUMNS(
+    CALENDAR(
+        MINX(ShiftLog, [ShiftDate]),
+        MAXX(ShiftLog, [ShiftDate])
+    ),
+    "Year", YEAR([Date]),
+    "Month", FORMAT([Date], "MMMM"),
+    "Month Number", MONTH([Date]),
+    "Week", "CW" & WEEKNUM([Date], 2),
+    "Day", DAY([Date]),
+    "Weekday", FORMAT([Date], "dddd"),
+    "Quarter", "Q" & FORMAT([Date], "Q")
+)
+```
+
+
+![image](https://github.com/user-attachments/assets/9acd1f81-9544-4b80-ab87-f57aaac13100)
+
 
 ### Example Measures
 
@@ -104,5 +130,7 @@ DIVIDE(goodUnits, TotalUnits, 0)
 ```DAX
 OEE:= [Availability] * [Performance] * [FTQ]
 ```
+
+![SSDT_Measures](https://github.com/user-attachments/assets/4822ce35-f0a3-4135-888e-7d76519b0510)
 
 ---
