@@ -1,7 +1,7 @@
+
+
+#  4.SSAS Deployment and Processing
 ---
-
-#  SSAS Deployment and Processing
-
 This document outlines how the SSAS Tabular model is deployed, incrementally processed, and kept in sync with SQL Server data. It describes the configuration of views, partitions, jobs, and automation logic in a way that supports production-grade deployment and data refresh.
 
 ---
