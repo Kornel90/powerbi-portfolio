@@ -1,7 +1,7 @@
+
+
+# 5.Connecting SSAS Tabular Model to Power BI
 ---
-
-# Connecting SSAS Tabular Model to Power BI
-
 This guide outlines how to connect a deployed SSAS Tabular model to Power BI for reporting and visualization. The connection enables real-time analytics on processed data from SQL Server via SSAS.
 
 ---
